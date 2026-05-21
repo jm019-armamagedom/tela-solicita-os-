@@ -1,0 +1,53 @@
+
+@import './global.css';
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+h1{
+  color: rgb(30, 11, 232);
+  margin-bottom: 50px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+button{
+  width: 280px;
+  height: 75px;
+
+  border: none;
+  border-radius: 18px;
+
+  background-color: #0066ff;
+
+  color: white;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover{
+  background-color: #0052cc;
+
+  transform: scale(1.05);
+}
