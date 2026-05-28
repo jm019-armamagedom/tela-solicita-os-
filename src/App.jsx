@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
 import NovaSolicitacao from './pages/NovaSolicitacao'
+import MinhasSolicitacoes from './pages/MinhasSolicitacoes'
 
 function App() {
 
@@ -17,6 +18,11 @@ function App() {
         <Route
           path="/nova-solicitacao"
           element={<NovaSolicitacao />}
+        />
+
+        <Route
+          path="/minhas-solicitacoes"
+          element={<MinhasSolicitacoes />}
         />
 
       </Routes>

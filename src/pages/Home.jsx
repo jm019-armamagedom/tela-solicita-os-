@@ -9,9 +9,10 @@ function Home() {
 
   return (
 
+    
     <div className="container">
-
-      <div className="logo">
+<nav> batata</nav>
+        <div className="logo">
         <img src={cameraImg} alt="" />
       </div>
 
@@ -25,7 +26,9 @@ function Home() {
           Nova Solicitação
         </button>
 
-        <button>
+        <button
+          onClick={() => navigate('/minhas-solicitacoes')}
+        >
           Minhas Solicitações
         </button>
 
