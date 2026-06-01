@@ -1,64 +1,78 @@
-
+import Navbar from '../components/Navbar'
 import '../styles/minhasSolicitacoes.css'
+import cameraImg from './vs.jpg'
 
 function MinhasSolicitacoes() {
 
   return (
+    <>
 
-    <div className="container">
+      <Navbar />
 
-      <h1>Minhas Solicitações</h1>
+      <div className="container">
 
-      <div className="listaSolicitacoes">
-
-        <div className="card">
-
-          <h2>Perdi minha bola</h2>
-
-          <p>
-            Solicitei análise das câmeras da quadra
-            no intervalo da tarde.
-          </p>
-
-          <span className="analise">
-            Em análise
-          </span>
-
+        <div className="logo">
+          <img src={cameraImg} alt="Câmera" />
         </div>
 
-        <div className="card">
+        <h1 className="titulo-minhas">
+          Minhas Solicitações
+        </h1>
 
-          <h2>Material perdido</h2>
+        <div className="listaSolicitacoes">
 
-          <p>
-            Estojo desapareceu próximo ao laboratório.
-          </p>
+          <div className="card">
 
-          <span className="aprovado">
-            Aprovada
-          </span>
+            <h2>Perdi minha bola        <br />aluno rm:20240317</h2>
 
-        </div>
+            <p>
+              Solicitei análise das câmeras da quadra
+              durante o intervalo para localizar minha bola.
+            </p>
 
-        <div className="card">
+            <span className="analise">
+              Em análise
+            </span>
 
-          <h2>Discussão no corredor</h2>
+          </div>
 
-          <p>
-            Solicitação para verificar ocorrido
-            no corredor do bloco B.
-          </p>
+          <div className="card">
 
-          <span className="negado">
-            Negada
-          </span>
+            <h2>Material escolar perdido <br />aluno:20240321</h2>
+
+            <p>
+              Estojo desapareceu próximo ao laboratório
+              de informática após a última aula.
+            </p>
+
+            <span className="aprovado">
+              Aprovada
+            </span>
+
+          </div>
+
+          <div className="card">
+
+            <h2>Ocorrência no corredor</h2>
+
+            <p>
+              Solicitei verificação de uma discussão
+              ocorrida no corredor dos laboratórios.
+            </p>
+
+            <span className="negado">
+              Negada
+            </span>
+
+            
+
+          </div>
 
         </div>
 
       </div>
 
-    </div>
-
+    </>
   )
 }
 

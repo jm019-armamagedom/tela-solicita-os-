@@ -1,0 +1,52 @@
+.telaInicial {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+
+  padding: 20px;
+}
+
+.logoInicial {
+  width: 180px;
+  height: auto;
+
+  margin-bottom: 50px;
+}
+
+.botoesInicial {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.botoesInicial button {
+  width: 320px;
+  height: 80px;
+
+  background-color: white;
+
+  border: 3px solid #0066ff;
+  border-radius: 12px;
+
+  color: #0066ff;
+
+  font-size: 28px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.botoesInicial button:hover {
+  background-color: #0066ff;
+  color: white;
+
+  transform: scale(1.03);
+}

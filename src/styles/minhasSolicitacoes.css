@@ -1,9 +1,8 @@
-
 @import './global.css';
 
 .container{
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 70px);
 
   display: flex;
   flex-direction: column;
@@ -12,14 +11,14 @@
   padding: 40px 20px;
 }
 
-h1{
-  color: white;
+.titulo-minhas{
+  color: #0066ff;
   margin-bottom: 35px;
 }
 
 .listaSolicitacoes{
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
 
   display: flex;
   flex-direction: column;
@@ -28,30 +27,28 @@ h1{
 }
 
 .card{
-  background: rgba(255,255,255,0.08);
+  background: white;
 
   padding: 20px;
 
   border-radius: 18px;
 
-  backdrop-filter: blur(5px);
-
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .card h2{
-  color: white;
+  color: #0066ff;
   margin-bottom: 10px;
 
   font-size: 20px;
 }
 
 .card p{
-  color: #dcdcdc;
+  color: #555;
 
   margin-bottom: 20px;
 
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 span{

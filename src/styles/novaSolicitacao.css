@@ -14,7 +14,7 @@
 }
 
 h1{
-  color: white;
+  color: rgb(0, 0, 0);
   margin-bottom: 40px;
 }
 
@@ -36,7 +36,7 @@ h1{
 }
 
 label{
-  color: white;
+  color: rgba(0, 117, 250, 0.4);
   font-weight: bold;
 }
 
@@ -47,7 +47,7 @@ textarea{
 
   border: none;
   border-radius: 10px;
-
+  border: 2px solid rgba(0, 117, 250, 0.4);
   padding: 15px;
 
   font-size: 16px;
@@ -58,7 +58,7 @@ input{
 
   border: none;
   border-radius: 10px;
-
+border: 2px solid rgba(0, 117, 250, 0.4);
   padding: 10px;
 
   font-size: 16px;
@@ -74,7 +74,7 @@ button{
 
   background-color: #0066ff;
 
-  color: white;
+  color: rgb(255, 255, 255);
 
   font-size: 20px;
   font-weight: bold;
